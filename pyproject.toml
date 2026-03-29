@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "qkabrine-automl"
-version = "2.1.0"
+version = "2.1.1"
 description = "Comprehensive automatic quantum machine learning — intelligent search for the best quantum circuit, encoding, and hyperparameters for your data"
 readme = "README.md"
 license = "MIT"
@@ -38,10 +38,12 @@ dev = ["pytest", "pytest-cov", "black", "ruff", "twine", "build"]
 
 [project.urls]
 Homepage = "https://qkabrine.online"
-Portfolio = "https://ericjagwara.online"
-Lab = "https://solidelf.org"
+Documentation = "https://qkabrine.readthedocs.io"
 Repository = "https://github.com/ericjagwara/qkabrine"
 "Bug Tracker" = "https://github.com/ericjagwara/qkabrine/issues"
+Portfolio = "https://ericjagwara.online"
+Lab = "https://solidelf.org"
+"Cite (Zenodo)" = "https://doi.org/10.5281/zenodo.19308532"
 
 [tool.setuptools.packages.find]
 where = ["."]
