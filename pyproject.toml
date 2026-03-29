@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qkabrine-automl"
+version = "2.1.0"
+description = "Comprehensive automatic quantum machine learning — intelligent search for the best quantum circuit, encoding, and hyperparameters for your data"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Eric Jagwara", email = "eric@solidelf.org" }]
+maintainers = [{ name = "Eric Jagwara" }]
+keywords = [
+    "quantum", "machine learning", "automl", "pennylane", "qml",
+    "quantum architecture search", "variational quantum circuits",
+    "quantum kernels", "bayesian optimization", "qkabrine",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Intended Audience :: Science/Research",
+    "Development Status :: 4 - Beta",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "pennylane>=0.35.0",
+    "numpy>=1.23.0",
+    "scikit-learn>=1.2.0",
+    "matplotlib>=3.6.0",
+]
+
+[project.optional-dependencies]
+ibm = ["pennylane-qiskit>=0.35.0"]
+dev = ["pytest", "pytest-cov", "black", "ruff", "twine", "build"]
+
+[project.urls]
+Homepage = "https://qkabrine.online"
+Portfolio = "https://ericjagwara.online"
+Lab = "https://solidelf.org"
+Repository = "https://github.com/ericjagwara/qkabrine"
+"Bug Tracker" = "https://github.com/ericjagwara/qkabrine/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["qkabrine_automl*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
