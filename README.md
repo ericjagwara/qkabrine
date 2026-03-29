@@ -1,10 +1,13 @@
 # ⚛️ Qkabrine AutoML
 
 > **An open-source framework that unifies intelligent architecture search, quantum kernel methods, and variational circuits in a single AutoML pipeline.**
-
+[![PyPI](https://img.shields.io/pypi/v/qkabrine-automl)](https://pypi.org/project/qkabrine-automl/)
+[![Python](https://img.shields.io/pypi/pyversions/qkabrine-automl)](https://pypi.org/project/qkabrine-automl/)
+[![Docs](https://readthedocs.org/projects/qkabrine/badge/?version=latest)](https://qkabrine.readthedocs.io)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19308532.svg)](https://doi.org/10.5281/zenodo.19308532)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/ericjagwara/qkabrine/blob/main/LICENSE)
 
-*Created by [Eric Jagwara](https://ericjagwara.online) at [Solid Elf Labs](https://solidelf.org)*
+*Created by [Eric Jagwara](https://ericjagwara.online)*
 
 ```bash
 pip install qkabrine-automl
