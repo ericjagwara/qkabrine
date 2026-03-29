@@ -1,6 +1,8 @@
 # ⚛️ Qkabrine AutoML
 
 > **An open-source framework that unifies intelligent architecture search, quantum kernel methods, and variational circuits in a single AutoML pipeline.**
+
+
 [![PyPI](https://img.shields.io/pypi/v/qkabrine-automl)](https://pypi.org/project/qkabrine-automl/)
 [![Python](https://img.shields.io/pypi/pyversions/qkabrine-automl)](https://pypi.org/project/qkabrine-automl/)
 [![Docs](https://readthedocs.org/projects/qkabrine/badge/?version=latest)](https://qkabrine.readthedocs.io)
