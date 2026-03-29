@@ -2,6 +2,8 @@
 
 > **An open-source framework that unifies intelligent architecture search, quantum kernel methods, and variational circuits in a single AutoML pipeline.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19308532.svg)](https://doi.org/10.5281/zenodo.19308532)
+
 *Created by [Eric Jagwara](https://ericjagwara.online) at [Solid Elf Labs](https://solidelf.org)*
 
 ```bash
