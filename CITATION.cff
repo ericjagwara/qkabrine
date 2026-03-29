@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Qkabrine AutoML"
+abstract: "Automatic Quantum Machine Learning — intelligent search over circuit architectures, encodings, and hyperparameters to find the best quantum model for your data."
+authors:
+  - family-names: Jagwara
+    given-names: Eric
+    affiliation: Solid Elf Labs
+    website: https://ericjagwara.online
+version: 2.1.0
+date-released: 2026-03-29
+license: MIT
+repository-code: https://github.com/ericjagwara/qkabrine
+url: https://qkabrine.readthedocs.io
+doi: 10.5281/zenodo.19308532
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19308532
+    description: "Zenodo archive — Qkabrine AutoML v2.1.0"
+keywords:
+  - quantum machine learning
+  - automl
+  - pennylane
+  - variational quantum circuits
+  - quantum kernels
+  - bayesian optimization
+  - quantum architecture search
+  - nisq
+preferred-citation:
+  type: software
+  title: "Qkabrine AutoML"
+  authors:
+    - family-names: Jagwara
+      given-names: Eric
+      affiliation: Solid Elf Labs
+  version: 2.1.0
+  date-released: 2026-03-29
+  doi: 10.5281/zenodo.19308532
+  url: https://qkabrine.readthedocs.io
+  repository-code: https://github.com/ericjagwara/qkabrine
+  license: MIT
