@@ -10,8 +10,8 @@ sys.path.insert(0, os.path.abspath('..'))
 project = 'Qkabrine AutoML'
 copyright = '2026, Eric Jagwara — Solid Elf Labs'
 author = 'Eric Jagwara'
-release = '2.1.0'
-version = '2.1.0'
+release = '2.1.1'
+version = '2.1.1'
 
 # ── Extensions ───────────────────────────────────────────────
 extensions = [

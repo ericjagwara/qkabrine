@@ -50,6 +50,18 @@ Qkabrine AutoML searches over **circuit architectures**, **data encodings**,
 
       Answers to the most common questions.
 
+   .. grid-item-card:: 🔬 Cite This Package
+      :link: citing
+      :link-type: doc
+
+      BibTeX, APA, and Zenodo DOI for citing Qkabrine in your research.
+
+   .. grid-item-card:: 🧪 Run in Google Colab
+      :link: https://colab.research.google.com/github/ericjagwara/qkabrine/blob/main/qkabrine_automl_demo.ipynb
+      :link-type: url
+
+      Open an interactive demo notebook — no installation needed.
+
 ---
 
 .. toctree::
@@ -61,6 +73,7 @@ Qkabrine AutoML searches over **circuit architectures**, **data encodings**,
    examples
    api
    faq
+   citing
 
 .. toctree::
    :maxdepth: 1
@@ -69,5 +82,6 @@ Qkabrine AutoML searches over **circuit architectures**, **data encodings**,
 
    PyPI <https://pypi.org/project/qkabrine-automl/>
    GitHub <https://github.com/ericjagwara/qkabrine>
+   Cite (Zenodo) <https://doi.org/10.5281/zenodo.19308532>
    Author <https://ericjagwara.online>
    Solid Elf Labs <https://solidelf.org>
