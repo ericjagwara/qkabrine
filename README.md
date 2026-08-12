@@ -1,3 +1,4 @@
+[![Tests](https://github.com/ericjagwara/qkabrine/actions/workflows/tests.yml/badge.svg)](https://github.com/ericjagwara/qkabrine/actions/workflows/tests.yml)
 # ⚛️ Qkabrine AutoML
 
 > **An open-source framework that unifies intelligent architecture search, quantum kernel methods, and variational circuits in a single AutoML pipeline.**
